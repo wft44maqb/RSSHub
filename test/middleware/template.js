@@ -101,4 +101,10 @@ describe('template', () => {
         expect(parsed.items[0].enclosure.length).toBe('3661');
         expect(parsed.items[0].itunes.duration).toBe('10:10:10');
     });
+
+    it(`enclosure`, async () => {
+        const response = await request.get('/test/sanitize');
+        const parsed = await parser.parseString(response.text);
+        expect(parsed.items[0].content).toBe('<b title="javascript:alert(2)"></b><img id="" src="https://github.com/DIYgod/RSSHub/issues/x">');
+    });
 });
