@@ -590,8 +590,7 @@
   ],
   "/bangumi/:type/followrank": [
     "honue",
-    "zhoukuncheng",
-    "NekoAria"
+    "zhoukuncheng"
   ],
   "/bangumi/tv/person/:id": [
     "ylc395"
@@ -2673,9 +2672,8 @@
   "/gov/ndrc/xwdt/:category{.+}?": [
     "nczitzk"
   ],
-  "/gov/ndrc/zfxxgk": [
-    "howfool",
-    "nczitzk"
+  "/gov/ndrc/zfxxgk/iteminfo": [
+    "howfool"
   ],
   "/gov/nea/sjzz/ghs": [
     "nczitzk"
@@ -2971,7 +2969,7 @@
   "/hellobtc/news": [
     "Fatpandac"
   ],
-  "/hellogithub/home/:sort?/:id?": [
+  "/hellogithub/article/:sort?/:id?": [
     "moke8",
     "nczitzk"
   ],
@@ -3181,9 +3179,6 @@
     "nczitzk"
   ],
   "/hust/gs/:category{.+}?": [
-    "nczitzk"
-  ],
-  "/hust/mse/:category{.+}?": [
     "nczitzk"
   ],
   "/hust/yjs": [
@@ -3907,9 +3902,6 @@
   "/loongarch/post/:type?": [
     "ladeng07",
     "3401797899"
-  ],
-  "/lorientlejour/:category?": [
-    "quiniapiezoelectricity"
   ],
   "/lovelive-anime/news/:abbr?/:category?/:option?": [
     "axojhf",
